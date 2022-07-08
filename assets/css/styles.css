@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "trebuchet MS", Helvetica, sans-serif ;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+    border: .5rem solid #56ed83eb;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#area-cabecalho{
+    display: flex;
+    padding: 0%;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 4;
+    background-color: black;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a{
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+.travar{
+    overflow-y: hidden;
+}
+
+@media (max-width: 900px) {
+    #menu {
+      display: block;
+      position:absolute;
+      width: 100%;
+      top: 150%;
+      right: 0%;
+      background: black;
+      transition: 0.6s;
+      height: 0%;
+      visibility: hidden;
+      overflow-y: hidden;
+    }
+    #nav.active #menu {
+      height: calc(100vh - 150%);
+      visibility: visible;
+      overflow-y: auto;
+    }
+    #menu a {
+      padding: 1% 0;
+      margin: 0 1%;
+      border-bottom: 2% solid rgba(0, 0, 0, 0.05);
+    }
+    #btn-mobile {
+      display: flex;
+      padding: 5% 10%;
+      font-size: 150%;
+      border: none;
+      background: none;
+      cursor: pointer;
+      gap: 50%;
+    }
+}
+
+.quebradelinha{
+    display: flex;
+    justify-content: Space-between;
+}
+
+
+#postagem {
+    padding: 1%;
+    margin-bottom: 1%;
+
+}
+
+#postagem1 {
+    padding: 1%;
+    margin-bottom: 1%;
+    margin-top: 0%;
+}
+
+.coricone{
+    color: #56ed83eb;
+    font-size: 2rem;
+    padding: 1%;
+    margin-bottom: 0%;
+}
+
+
+.coricone1{
+    color: #56ed83eb;
+    font-size: 6rem;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+.conteinerteste2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    height: 14%;
+    background-color: #33333363;
+    border-bottom: 3px solid #56ed83eb;
+}
+
+.conteinerteste1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.conteinerteste5{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+h1{
+    color: white;
+    text-align: left;
+    margin-bottom: 5%;
+    font-size: 2em;
+    padding: 20% 0% 0% 0%;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    padding: 5% 0% 0% 0%;
+    margin-bottom: 1%;
+    font-size: 2em;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+
+p{
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+.lista{
+    color: white;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+#meio{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1em;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+
+#menu a:hover{
+    color: white;
+    background:  #56ed83eb;
+    text-decoration: none;
+}
+
+#area-cabecalho a:hover{
+    text-decoration: none;
+}
+
+#postagem a:link, #postagem a:visited{
+    color: #56ed83eb;
+    padding: 1%;
+    margin-bottom: 1%;
+    text-decoration: none;
+}
+
+#postagem a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#postagem1 a:link, #postagem1 a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#postagem1 li:hover{
+    color: #56ed83eb;
+    text-decoration: none;
+}
+
+#postagem1 h3:hover{
+    color: #56ed83eb;
+    text-decoration: none;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 0.5%;
+    background: #33333363;
+    color: white;
+}
+
+#rodape a:link, #rodape a:visited{
+    color: #56ed83eb;
+    padding: 0.5%;
+    text-decoration: none;
+}
+
+#rodape a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.green{
+    color: #56ed83eb;
+}
+
+.conteiner {
+    row-gap: 2rem;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .skills__subtitle {
+    margin-bottom: 1rem;
+  }
+  
+  .skills__text {
+    margin-bottom: 2rem;
+  }
+  
+  .data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0px 4px 25px #56ed83eb;
+  }
+  
+  .skills__icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #56ed83eb;
+  }
+  
+  .nome {
+    display: flex;
+    align-items: center;
+    color: #56ed83eb;
+  }
+
+  .porcentagem{
+    display: flex;
+    align-items: center;
+    color: #56ed83eb;
+  }
+  
+  .barra {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #56ed83eb;
+    height: .40rem;
+    border-radius: .5rem;
+    z-index: -10;
+  }
+  
+  .html {
+    width: 22.25%;
+  }
+  
+  .css {
+    width: 6.28%;
+  }
+  
+  .js {
+    width: 71.46%;
+  }
+
+.contato {
+    width: 85%;
+    font-size: .938rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 3px solid #56ed83eb;
+    outline: none;
+    margin-bottom: 2rem;
+}
+  
+.contato-botão {
+    display: block;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #56ed83eb;
+}
+
