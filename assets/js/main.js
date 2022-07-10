@@ -1,6 +1,7 @@
 const btnMobile = document.getElementById('btn-mobile');
 const menu = document.getElementById('menu');
 
+
 function toggleMenu(event) {
   if (event.type === 'touchstart') event.preventDefault();
   const nav = document.getElementById('nav');
