@@ -1,10 +1,12 @@
-import { SessionWhoIAm } from '../../components/sessionWhoIAm';
+import { SessionProjects } from '../../components/session/sessionProjects';
+import { SessionWhoIAm } from '../../components/session/sessionWhoIAm';
 import { Container } from './style';
 
 export function Home() {
   return (
     <Container aria-label="Página inicial do portfólio de Iuri Dantas">
-        <SessionWhoIAm/>
+      <SessionWhoIAm />
+      <SessionProjects />
     </Container>
   );
 }
