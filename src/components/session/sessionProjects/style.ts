@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const ProjectsSession = styled.div`
-  background: linear-gradient(to bottom, #b08fe2, #8a2be2);
-
-
-
-
+  background: linear-gradient(to bottom, #b89fe4, #a88ec7);
   color: white;
+
+  .transition{
+      width: 100%;
+  }
   
   div {
     max-width: 1440px;

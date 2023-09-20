@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const WhoIAmSession = styled.div`
-  background: linear-gradient(to bottom, #8a2be2, #4b0082);
+  background: linear-gradient(to bottom, #b89fe4, #a88ec7);
   color: white;
 
   .intro {

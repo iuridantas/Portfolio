@@ -5,5 +5,26 @@
     "name": "SITE PARA PERSONAL TRAINER",
     "link_project": "https://www.personaltrainerthiagobatalha.com",
     "link_github": "https://github.com/iuridantas/Personal-Trainer"
+  },
+  {
+    "id": 2,
+    "photo": "/img/projeto_3.png",
+    "name": "SITE PARA PET SHOP",
+    "link_project": "https://pet-shop-filhotes-de-patas.vercel.app",
+    "link_github": "https://github.com/iuridantas/Pet-Shop-Filhotes-de-Patas"
+  },
+  {
+    "id": 3,
+    "photo": "/img/projeto_2.png",
+    "name": "SITE PARA UMA EMPRESA DE IMPRESSÃO DIGITAL",
+    "link_project": "https://jprintdigital.com",
+    "link_github": "https://github.com/iuridantas/Printing-Shop"
+  },
+  {
+    "id": 4,
+    "photo": "/img/projeto_4.png",
+    "name": "SITE PARA UMA EMPRESA DE BRINQUEDOS EM CONSIGNAÇÃO",
+    "link_project": "https://maniaplaybrinquedos.com",
+    "link_github": "https://github.com/iuridantas/Mania-Play"
   }
 ]
