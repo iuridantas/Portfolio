@@ -48,6 +48,7 @@ export const WhoIAmSession = styled.div`
 
   a:hover {
     transform: translate(0px, -10px);
+    color: black;
   }
 
   @media only screen and (max-width: 600px) {

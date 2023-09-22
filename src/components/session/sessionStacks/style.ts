@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ProjectsSession = styled.div`
+export const StacksSession = styled.div`
   background: linear-gradient(to bottom, #b89fe4, #a88ec7);
   color: white;
 
@@ -10,12 +10,11 @@ export const ProjectsSession = styled.div`
 
   h2 {
     font-size: 50px;
-    text-align: start;
-    margin: 10px auto;
+    margin: 10px auto 50px auto;
   }
 
   hr {
-    width: 175px;
+    width: 140px;
     border-width: 2px;
   }
 
@@ -28,7 +27,7 @@ export const ProjectsSession = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 24px 100px;
   }
 
   @media only screen and (max-width: 600px) {
@@ -38,7 +37,11 @@ export const ProjectsSession = styled.div`
     }
 
     hr {
-      width: 140px;
+      width: 110px;
+    }
+
+    section {
+      gap: 24px;
     }
   }
 `;

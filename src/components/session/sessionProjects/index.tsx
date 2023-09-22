@@ -1,4 +1,4 @@
-import { CardProjects } from '../../card';
+import { CardProjects } from '../../card/projects';
 import { ProjectsSession } from './style';
 
 export function SessionProjects() {
@@ -7,6 +7,9 @@ export function SessionProjects() {
       <ProjectsSession>
         <img className="transition" src="/img/transição.png" />
         <div>
+          <h2>
+            Projects <hr />
+          </h2>
           <CardProjects />
         </div>
       </ProjectsSession>

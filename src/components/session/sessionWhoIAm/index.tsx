@@ -7,7 +7,7 @@ export function SessionWhoIAm() {
     <section aria-label="Seção de informações sobre Iuri Dantas">
       <WhoIAmSession>
         <div className="intro">
-          <h2>Olá! 👋 Eu sou o Iuri</h2>
+          <h2>Olá! 👋 Eu sou o Iuri Dantas</h2>
           <h1>FULL-STACK</h1>
           <div className="title">
             <h1>DEVELOPER</h1>

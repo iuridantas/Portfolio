@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { CardSession } from './style';
-import projects from '../json/projects.json';
+import { AiFillGithub } from 'react-icons/ai';
+import projects from '../../json/projects.json';
 
 export function CardProjects() {
   const [imagesLoaded, setImagesLoaded] = useState(false);
@@ -46,7 +47,10 @@ export function CardProjects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h3>Código no GitHub</h3>
+            <div>
+              <h3>Código no GitHub</h3>
+              <AiFillGithub />
+            </div>
           </a>
         </CardSession>
       ))}

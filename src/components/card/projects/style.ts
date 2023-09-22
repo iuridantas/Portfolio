@@ -6,8 +6,6 @@ export const CardSession = styled.div`
   padding: 16px;
 
   img {
-    height: 500px;
-    width: 500px;
     border-radius: 16px;
   }
 
@@ -17,19 +15,28 @@ export const CardSession = styled.div`
   }
 
   h2 {
-    font-size: 30px;
-    text-align: center;
+    font-size: 30px !important;
+    text-align: center !important;
   }
 
   h3 {
     font-size: 16px;
-    text-align: center;
     padding: 5px;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   a {
     color: white;
     text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
   }
 
   @media only screen and (max-width: 600px) {
@@ -42,7 +49,7 @@ export const CardSession = styled.div`
     }
 
     h2 {
-      font-size: 20px;
+      font-size: 20px !important;
     }
   }
 `;
