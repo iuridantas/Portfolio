@@ -9,6 +9,50 @@ export const CardSession = styled.div`
     font-size: 100px;
   }
 
+  .icon-html5:hover {
+    color: #e34f26;
+  }
+
+  .icon-css3:hover {
+    color: #1572b6;
+  }
+
+  .icon-react:hover {
+    color: #61dafb;
+  }
+
+  .icon-typescript:hover {
+    color: #007acc;
+  }
+
+  .icon-javaScript:hover {
+    color: #f7df1e;
+  }
+
+  .icon-gitHub:hover {
+    color: #181717;
+  }
+
+  .icon-git:hover {
+    color: #f05032;
+  }
+
+  .icon-docker:hover {
+    color: #2496ed;
+  }
+
+  .icon-nodeJs:hover {
+    color: #68a063;
+  }
+
+  .icon-nestJs:hover {
+    color: #e0234e;
+  }
+
+  .icon-prisma:hover {
+    color: #2d3748;
+  }
+
   h3 {
     font-size: 20px;
     padding: 5px;

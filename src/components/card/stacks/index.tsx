@@ -15,25 +15,25 @@ import { BsGit } from 'react-icons/bs';
 
 export function CardStacks() {
   const icons = [
-    { Icon: SiHtml5, name: 'HTML5' },
-    { Icon: SiCss3, name: 'CSS3' },
-    { Icon: SiReact, name: 'React' },
-    { Icon: SiTypescript, name: 'TypeScript' },
-    { Icon: SiJavascript, name: 'JavaScript' },
-    { Icon: SiGithub, name: 'GitHub' },
-    { Icon: BsGit, name: 'Git' },
-    { Icon: SiDocker, name: 'Docker' },
-    { Icon: IoLogoNodejs, name: 'Node.js' },
-    { Icon: SiNestjs, name: 'Nest.js' },
-    { Icon: SiPrisma, name: 'Prisma' },
+    { Icon: SiHtml5, name: 'HTML5', colorClass: 'icon-html5' },
+    { Icon: SiCss3, name: 'CSS3', colorClass: 'icon-css3' },
+    { Icon: SiReact, name: 'React', colorClass: 'icon-react' },
+    { Icon: SiTypescript, name: 'TypeScript', colorClass: 'icon-typescript' },
+    { Icon: SiJavascript, name: 'JavaScript', colorClass: 'icon-javaScript' },
+    { Icon: SiGithub, name: 'GitHub', colorClass: 'icon-gitHub' },
+    { Icon: BsGit, name: 'Git', colorClass: 'icon-git' },
+    { Icon: SiDocker, name: 'Docker', colorClass: 'icon-docker' },
+    { Icon: IoLogoNodejs, name: 'Node.js', colorClass: 'icon-nodeJs' },
+    { Icon: SiNestjs, name: 'Nest.js', colorClass: 'icon-nestJs' },
+    { Icon: SiPrisma, name: 'Prisma', colorClass: 'icon-prisma' },
   ];
 
   return (
     <section aria-label="Seção das tecnologias que tenho conhecimento">
       {icons.map((item, index) => (
-        <CardSession>
-          <div key={index}>
-            <item.Icon className="icons" />
+        <CardSession key={index} className="card">
+          <div>
+            <item.Icon className={`icons ${item.colorClass}`} />
             <h3>{item.name}</h3>
           </div>
         </CardSession>
