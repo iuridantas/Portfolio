@@ -41,4 +41,10 @@ export const ProjectsSession = styled.div`
       width: 140px;
     }
   }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    h2 {
+      margin: 10px auto 10px 30px;
+    }
+  }
 `;

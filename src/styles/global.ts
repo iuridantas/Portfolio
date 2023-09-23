@@ -6,11 +6,12 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    font-family: 'Modern Antiqua', sans-serif;
   }
   
   html, body, #root {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
   }
   
   body {

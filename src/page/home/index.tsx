@@ -1,3 +1,4 @@
+import { SessionEmail } from '../../components/session/sessionEmail';
 import { SessionProjects } from '../../components/session/sessionProjects';
 import { SessionStacks } from '../../components/session/sessionStacks';
 import { SessionWhoIAm } from '../../components/session/sessionWhoIAm';
@@ -8,7 +9,8 @@ export function Home() {
     <Container aria-label="Página inicial do portfólio de Iuri Dantas">
       <SessionWhoIAm />
       <SessionProjects />
-      <SessionStacks/>
+      <SessionStacks />
+      <SessionEmail />
     </Container>
   );
 }
