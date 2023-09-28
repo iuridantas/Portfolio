@@ -28,7 +28,7 @@ export function SessionWhoIAm() {
               <AiFillLinkedin />
             </a>
             <a
-              href="https://drive.google.com/file/d/1z04nJDStHacsdjI7TXGYqIBG6msW-Dad/view?usp=sharing"
+              href="https://drive.google.com/file/d/1H_viLXm3jKXpJVlYUXKmtyRVmHno016d/view"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="currículo"
