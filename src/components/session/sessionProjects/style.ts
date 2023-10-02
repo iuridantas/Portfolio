@@ -31,6 +31,24 @@ export const ProjectsSession = styled.div`
     gap: 24px;
   }
 
+  .pagination {
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 8px;
+    margin: 10px;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  button:hover{
+    color: #000000;
+  }
+
   @media only screen and (max-width: 600px) {
     h2 {
       font-size: 40px;
